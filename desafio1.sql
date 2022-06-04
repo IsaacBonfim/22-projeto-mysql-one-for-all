@@ -38,7 +38,7 @@ VALUES
 CREATE TABLE SpotifyClone.plano(
   id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
   plano VARCHAR(20) NOT NULL,
-  valor DOUBLE NOT NULL
+  valor FLOAT NOT NULL
 ) ENGINE = InnoDB;
 
 INSERT INTO SpotifyClone.plano (plano, valor)
